@@ -23,6 +23,7 @@
 
 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.  
 >cat >> new.xml  
+```html
 <?xml version="1.0" encoding="utf-8"?>
 <new>
 	<last_name>Полещук</last_name>
@@ -31,6 +32,7 @@
 	<number_of_pets>0</number_of_pets>
   	<salary>800</salary>
 </new>  
+```
 >Нажать Ctrl+D  
 >cat new.xml
 
