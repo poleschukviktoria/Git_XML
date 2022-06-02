@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ID>000</ID>
-<Title>заголовок</Title>
-<Environment>окужение</Environment>
-<Precondition>предусловие</Precondition>
-<STR>шаги воспроизведения бага</STR>	
-<AR>фактический результат</AR>
-<ER>ожидаемый результат</ER>	
-<Attachments>скриншот или видео</Attachments>
-<Severity>
-        <type>Blocker</type>
-        <type>Critical</type>
-        <type>Major</type>
-        <type>Minor</type>
-        <type>Trivial</type>
-</Severity>
-<Priority>
-        <type>High</type>
-        <type>Medium</type>
-        <type>Low</type>
-</Priority>
+<bug_report>
+        <ID>000</ID>
+        <Title>заголовок</Title>
+        <Environment>окужение</Environment>
+        <Precondition>предусловие</Precondition>
+        <STR>шаги воспроизведения бага</STR>	
+        <AR>фактический результат</AR>
+        <ER>ожидаемый результат</ER>	
+        <Attachments>скриншот или видео</Attachments>
+        <Severity>
+                <type>Blocker</type>
+                <type>Critical</type>
+                <type>Major</type>
+                <type>Minor</type>
+                <type>Trivial</type>
+        </Severity>
+        <Priority>
+                <type>High</type>
+                <type>Medium</type>
+                <type>Low</type>
+        </Priority>
+</bug_report>
