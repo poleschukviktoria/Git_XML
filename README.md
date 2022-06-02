@@ -64,7 +64,7 @@
 ```html
 <?xml version="1.0" encoding="UTF-8"?>
 <skills>
-	<QA>Git, GitHub, API, HTTP/HTTPS, Charles, Fiddler, Android studio, ADB  Web testing, Mobile testing, Proxy, VPN, SQL, JMeter, Scrum
+	<QA>Git, GitHub, API, HTTP/HTTPS, Charles, Fiddler, Android studio, ADB  Web testing, Mobile testing, Proxy, VPN, SQL, JMeter, Scrum</QA>
 </skills>  
 ```
 >Нажать Ctrl+D   
@@ -87,26 +87,28 @@
 >На GitHub модифицировать файл bug_report.xml  
 ```html 
 <?xml version="1.0" encoding="UTF-8"?>
-<ID>000</ID>
-<Title>заголовок</Title>
-<Environment>окружение</Environment>
-<Precondition>предусловие</Precondition>
-<STR>шаги воспроизведения бага</STR>	
-<AR>фактический результат</AR>
-<ER>ожидаемый результат</ER>	
-<Attachments>скриншот или видео</Attachments>
-<Severity>
-	<type>Blocker</type>
-	<type>Critical</type>
-	<type>Major</type>
-	<type>Minor</type>
-	<type>Trivial</type>
-</Severity>
-<Priority>
-	<type>High</type>
-	<type>Medium</type>
-	<type>Low</type>
-</Priority>  
+<bug_report>
+	<ID>000</ID>
+	<Title>заголовок</Title>
+	<Environment>окружение</Environment>
+	<Precondition>предусловие</Precondition>
+	<STR>шаги воспроизведения бага</STR>	
+	<AR>фактический результат</AR>
+	<ER>ожидаемый результат</ER>	
+	<Attachments>скриншот или видео</Attachments>
+	<Severity>
+		<type>Blocker</type>
+		<type>Critical</type>
+		<type>Major</type>
+		<type>Minor</type>
+		<type>Trivial</type>
+	</Severity>
+	<Priority>
+		<type>High</type>
+		<type>Medium</type>
+		<type>Low</type>
+	</Priority>  
+</bug_report>
 ```
 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
 >Закоммитить bug_report.xml файл на GitHub  
