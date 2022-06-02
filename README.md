@@ -46,6 +46,7 @@
 
 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.  
 >cat >> preferences.xml  
+```html
 <?xml version="1.0" encoding="utf-8"?>
 <favorite>
 	<movie>Список Шиндлера</movie>
@@ -54,15 +55,18 @@
  	<season>Лето</season>
 	<country>Португалия</country>
 </favorite>  
+```
 >Нажать Ctrl+D  
 >cat preferences.xml  
 
 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
 >cat >> skills.xml  
+```html
 <?xml version="1.0" encoding="UTF-8"?>
 <skills>
 	<QA>Git, GitHub, API, HTTP/HTTPS, Charles, Fiddler, Android studio, ADB  Web testing, Mobile testing, Proxy, VPN, SQL, JMeter, Scrum
 </skills>  
+```
 >Нажать Ctrl+D  
 >cat skills.xml   
 
@@ -80,7 +84,8 @@
 >Закоммитить bug_report.xml файл на GitHub  
 
 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  
->На GitHub модифицировать файл bug_report.xml  
+>На GitHub модифицировать файл bug_report.xml 
+```html 
 <?xml version="1.0" encoding="UTF-8"?>
 <ID>000</ID>
 <Title>заголовок</Title>
@@ -102,7 +107,7 @@
 	<type>Medium</type>
 	<type>Low</type>
 </Priority>  
-
+```
 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
 >Закоммитить bug_report.xml файл на GitHub  
 
