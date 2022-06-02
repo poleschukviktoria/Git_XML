@@ -44,7 +44,7 @@
 29. Создать файл preferences.xml  
 >touch preferences.xml  
 
-30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.  
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате XML.  
 >cat >> preferences.xml    
 ```html
 <?xml version="1.0" encoding="utf-8"?>
@@ -89,7 +89,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ID>000</ID>
 <Title>заголовок</Title>
-<Environment>окужение</Environment>
+<Environment>окружение</Environment>
 <Precondition>предусловие</Precondition>
 <STR>шаги воспроизведения бага</STR>	
 <AR>фактический результат</AR>
