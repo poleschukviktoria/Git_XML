@@ -6,20 +6,20 @@
 >git clone git@github.com:poleschukviktoria/Git_XML.git
 
 23. Внутри локального XML создать файл “new.xml”.  
->cd /d/V_ksendzov/Git_XML/Git_XML/
->touch new.xml
->git status     
+>cd /d/V_ksendzov/Git_XML/Git_XML/  
+>touch new.xml  
+>git status       
 
 24. Добавить файл под гит.  
->git add new.xml
+>git add new.xml  
 >git status   
 
 25. Закоммитить файл.  
->git commit -m "add new.xml file"
->git status 
+>git commit -m "add new.xml file"  
+>git status  
 
 26. Отправить файл на внешний GitHub репозиторий.  
->git push
+>git push  
 
 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.  
 >cat >> new.xml  
@@ -45,7 +45,7 @@
 >touch preferences.xml  
 
 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.  
->cat >> preferences.xml  
+>cat >> preferences.xml    
 ```html
 <?xml version="1.0" encoding="utf-8"?>
 <favorite>
@@ -60,14 +60,14 @@
 >cat preferences.xml  
 
 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
->cat >> skills.xml  
+>cat >> skills.xml   
 ```html
 <?xml version="1.0" encoding="UTF-8"?>
 <skills>
 	<QA>Git, GitHub, API, HTTP/HTTPS, Charles, Fiddler, Android studio, ADB  Web testing, Mobile testing, Proxy, VPN, SQL, JMeter, Scrum
 </skills>  
 ```
->Нажать Ctrl+D  
+>Нажать Ctrl+D   
 >cat skills.xml   
 
 32. Сделать коммит в одну строку.  
@@ -84,7 +84,7 @@
 >Закоммитить bug_report.xml файл на GitHub  
 
 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  
->На GitHub модифицировать файл bug_report.xml 
+>На GitHub модифицировать файл bug_report.xml  
 ```html 
 <?xml version="1.0" encoding="UTF-8"?>
 <ID>000</ID>
